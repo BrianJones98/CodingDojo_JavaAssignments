@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+a{
+	display: block;
+}
+p a{
+	display: inline;
+}
+h1{
+	text-align: center;
+}
+#increment{
+	text-align: center;
+}
