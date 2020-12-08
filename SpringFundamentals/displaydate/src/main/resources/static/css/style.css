@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 100px;	
+}
+
+#links{
+	width: 500px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#date{
+	text-align: center;
+	color: blue;
+}
+
+#time{
+	color: green;
+	text-align: center;
+}
