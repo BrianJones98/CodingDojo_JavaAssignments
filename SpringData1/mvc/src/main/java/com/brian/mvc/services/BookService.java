@@ -32,6 +32,7 @@ public class BookService {
             return null;
         }
     }
+    //JIC: Long id, String title, String desc, String lang, Integer numOfPages
     public Book updateBook(Long id, String title, String desc, String lang, Integer numOfPages) {
     	Book book = findBook(id);
     	book.setTitle(title);
