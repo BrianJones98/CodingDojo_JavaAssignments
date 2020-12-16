@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 50px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+#links a{
+	margin-right: 20px;
+}
