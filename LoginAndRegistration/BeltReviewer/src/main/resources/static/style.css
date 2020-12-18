@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 50px;
+}
+
+form span{
+	color: red;
+}
+form button{
+	display: block;
+}
+
+h1{
+	text-align: center;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.table{
+	border: 2px solid black;
+}
+	.table thead tr{
+		background-color: gray !important;
+	}
+	.table tr:nth-child(odd){
+		background-color: lightgray;
+	}
+	
+#participant-table{
+	width: 500px;
+}
+
+#messages{
+	border: 1px solid black;
+	width: 400px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+#wrapper{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#index-wrapper{
+	display: flex;
+	justify-content: space-evenly;
+}
+	#index-wrapper div{
+		border: 2px solid black;
+		padding: 20px;
+		width: 700px;
+	}
+	#index-wrapper div:nth-child(2){
+		width: 350px;
+	}
+	
+.form-table td{
+	padding: 5px;
+}
